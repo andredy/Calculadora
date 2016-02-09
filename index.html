@@ -36,31 +36,31 @@
     
     $("document").ready(function inicio(){
         $("#Sumar").tap(function(){
-			var num=ParseInt($("#txtnum1").val());
-			var num2=ParseInt($("#txtnum2").val());
+			var num=parseInt($("#txtnum1").val());
+			var num2=parseInt($("#txtnum2").val());
 		var res = num+num2;
         alert("tu suma  es: " + res);
 	
     });
     $("#Restar").tap(function(){
-			var num=ParseInt($("#txtnum1").val());
-			var num2=ParseInt($("#txtnum2").val());
-		var res = num-num2;
-        alert("tu suma  es: " + res);
+			var num3=parseInt($("#txtnum3").val());
+			var num4=parseInt($("#txtnum4").val());
+		var res1 = num3-num4;
+        alert("tu resta es: " + res1);
 	
     });
     $("#Dividir").tap(function(){
-			var num=ParseInt($("#txtnum1").val());
-			var num2=ParseInt($("#txtnum2").val());
-		var res = num/num2;
-        alert("tu suma  es: " + res);
+			var num5=parseInt($("#txtnum5").val());
+			var num6=parseInt($("#txtnum6").val());
+		var res2 = num5/num6;
+        alert("tu divicion  es: " + res2);
 	
     });
     $("#Multiplicar").tap(function(){
-			var num=ParseInt($("#txtnum1").val());
-			var num2=ParseInt($("#txtnum2").val());
-		var res = num*num2;
-        alert("tu suma  es: " + res);
+			var num7=parseInt($("#txtnum7").val());
+			var num8=parseInt($("#txtnum8").val());
+		var res3 = num7*num8;
+        alert("tu multiplicacion  es: " + res3);
 	
     });
     });    
@@ -108,8 +108,8 @@
      <h1>Resta</h1>
              </div>
               <div data-role="content">
-                  <input type="text"  id="txtnum1" placeholder="num"/>
-                   <input type="text"  id="txtnum2" placeholder="num2"/>
+                  <input type="text"  id="txtnum3" placeholder="num"/>
+                   <input type="text"  id="txtnum4" placeholder="num2"/>
                      <input type="button"  id="Restar" value="Restar"/>
   </div>
               <div data-role="footer">
@@ -117,13 +117,13 @@
                </div>
 </div>
     
- <div data-role="page" id="PDivicion" style="background-image:url(A37.jpg) ">
+ <div data-role="page" id="PDividicion" style="background-image:url(A37.jpg) ">
              <div data-role="header">
      <h1>Divicion</h1>
              </div>
               <div data-role="content">
-                  <input type="text"  id="txtnum1" placeholder="num"/>
-                   <input type="text"  id="txtnum2" placeholder="num2"/>
+                  <input type="text"  id="txtnum5" placeholder="num"/>
+                   <input type="text"  id="txtnum6" placeholder="num2"/>
                      <input type="button"  id="Dividir" value="Dividir"/>
 
   </div>
@@ -137,8 +137,8 @@
      <h1>Multiplicacion</h1>
              </div>
               <div data-role="content">
-                  <input type="text"  id="txtnum1" placeholder="num"/>
-                   <input type="text"  id="txtnum2" placeholder="aqui va el segundo "/>
+                  <input type="text"  id="txtnum7" placeholder="num"/>
+                   <input type="text"  id="txtnum8" placeholder="aqui va el segundo "/>
                      <input type="button"  id="Multiplicar" value="Multiplicar"/>
               </div>
               <div data-role="footer">
